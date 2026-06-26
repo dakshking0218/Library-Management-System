@@ -149,8 +149,6 @@ library-management-system/
 
 ## 💡 Key Design Decisions
 
-**Why flat files instead of SQLite?**
-The goal was to demonstrate manual serialization and parsing — a fundamental skill. Implementing `save` / `load` logic by hand is more instructive (and interview-relevant) than calling a database API.
 
 **Why pipe `|` as delimiter?**
 Commas appear naturally in book titles and author names. Pipes are rare in that context, making the format reliable without needing escape logic.
