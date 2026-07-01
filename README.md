@@ -134,16 +134,6 @@ Fine paid: $5.00
 Remaining balance: $13.00
 ```
 
----
-
-## 📁 Project Structure
-
-```
-library-management-system/
-│
-├── main.cpp            # Full source — single-file project
-└── README.md
-```
 
 ---
 
@@ -180,16 +170,5 @@ Models a realistic library policy where repeat offenders lose borrowing privileg
 | 1013 | Head First Design Patterns     | Freeman            |
 | 1014 | Data Structures and Algorithms | S. Lipschutz       |
 | 1015 | Algorithm Design               | Kleinberg          |
-
----
-
-## 🛠️ Possible Extensions
-
-- [ ] Password protection for student accounts
-- [ ] Book reservation / waitlist system
-- [ ] Admin ability to suspend/reinstate students manually
-- [ ] Export transaction history to CSV
-- [ ] Multiple copies per book (copy count instead of single boolean)
-- [ ] Email/SMS fine reminders (via external API)
 
 ---
